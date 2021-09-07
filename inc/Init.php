@@ -9,7 +9,7 @@ namespace Inc;
 
 class Init
 {
-  public static function get_services()
+  public static function getServices()
   {
     // returns each service entire class
     return [
@@ -21,9 +21,9 @@ class Init
   /**
    * Loop through classes, initialize and call the register method if exists
    */
-  public static function register_services()
+  public static function registerServices()
   {
-    foreach (self::get_services() as $class) {
+    foreach (self::getServices() as $class) {
       $service = self::instantiate($class);
       if (method_exists($service, 'register')) {
         $service->register();
