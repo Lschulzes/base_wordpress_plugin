@@ -1,1 +1,5 @@
-# base_wordpress_plugin
+# Base Wordpress Plugin
+
+<h4>
+  Base OOP plugin template for wordpress
+</h4>
