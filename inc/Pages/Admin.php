@@ -11,15 +11,15 @@ class Admin extends BaseController
 {
   public function register()
   {
-    add_action('admin_menu', [$this, 'add_admin_pages']);
+    add_action('admin_menu', [$this, 'addAdminPages']);
   }
 
-  public function add_admin_pages()
+  public function addAdminPages()
   {
-    add_menu_page('Lschulze Plugin', 'lschulze', 'manage_options', 'lschulze_plugin', [$this, 'admin_index'], 'dashicons-superhero', 110);
+    add_menu_page('Lschulze Plugin', 'lschulze', 'manage_options', 'lschulze_plugin', [$this, 'adminIndex'], 'dashicons-superhero', 110);
   }
 
-  public function admin_index()
+  public function adminIndex()
   {
     // require template
     require_once $this->plugin_path . "templates/admin.php";
