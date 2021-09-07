@@ -9,3 +9,9 @@
 - [ ] Create a file in the plugin folder and give it a name <br>
 - [ ] Substitute the lschulze-plugin with the name that you gave <br>
 - [ ] Happy Start! 🚀 <br>
+
+# Plugin Projects Developed With This Base
+
+- [x] Custom Admin Data
+- [X] Ecommerce Stock CRUD
+- [ ] Coupon Widget Generator ⌛
