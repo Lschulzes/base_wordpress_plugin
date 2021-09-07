@@ -5,7 +5,7 @@
 </h4>
 <p>A great starting place to build OOP plugins for wordpress!</p>
 
-<h3>How To Start Using?</h3>
-[x] Create a file in the plugin folder and give it a name <br>
-[x] Substitute the lschulze-plugin with the name that you gave <br>
-[x] Happy Start! 🚀 <br>
+## How To Start Using?
+- [ ] Create a file in the plugin folder and give it a name <br>
+- [ ] Substitute the lschulze-plugin with the name that you gave <br>
+- [ ] Happy Start! 🚀 <br>
