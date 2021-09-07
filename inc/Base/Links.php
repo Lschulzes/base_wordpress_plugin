@@ -11,10 +11,10 @@ class Links extends BaseController
 {
   public function register()
   {
-    add_filter("plugin_action_links_" . $this->plugin_basename,  [$this, 'settings_link']);
+    add_filter("plugin_action_links_" . $this->plugin_basename,  [$this, 'settingsLink']);
   }
 
-  public function settings_link($links)
+  public function settingsLink($links)
   {
     // add Custom settings link
     $settings_link = '<a href="admin.php?page=lschulze_plugin">Settings</a>';
